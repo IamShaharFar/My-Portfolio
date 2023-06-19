@@ -63,9 +63,6 @@
     <li>JavaScript</li>
   </ul>
 
-  <h2>License</h2>
-  <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
   <h2>Contact</h2>
-  <p>For any inquiries or suggestions, feel free to reach out to me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+  <p>For any inquiries or suggestions, feel free to reach out to me at <a href="https://www.linkedin.com/in/shahar-faradyan/">My linkedin account</a>.</p>
 </body>
