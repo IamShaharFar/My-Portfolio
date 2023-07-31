@@ -18,7 +18,7 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone the repository:
-      <pre><code>git clone [https://github.com/IamShaharFar/Portfolio]</code></pre>
+      <pre><code>git clone [https://github.com/IamShaharFar/My-Portfolio]</code></pre>
     </li>
     <li>Navigate to the project directory:
       <pre><code>cd your-portfolio</code></pre>
