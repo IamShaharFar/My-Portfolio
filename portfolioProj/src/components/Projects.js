@@ -4,6 +4,8 @@ import ColorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
 
 export const Projects = () => {
   const projects = [
@@ -28,6 +30,20 @@ export const Projects = () => {
       gitUrl: "https://github.com/IamShaharFar/Portfolio",
       siteUrl: "https://github.com/IamShaharFar/Portfolio"
     },
+    {
+      title: "E commerce",
+      description: "A store of tech products with option to buy with pay pal",
+      imgUrl: projImg4,
+      gitUrl: "https://github.com/IamShaharFar/MyStore",
+      siteUrl: "https://github.com/IamShaharFar/MyStore"
+    },
+    {
+      title: "Smart Event",
+      description: "An AI tool that help create an event in your calender based on invatation message",
+      imgUrl: projImg5,
+      gitUrl: "https://github.com/IamShaharFar/SmartEvent",
+      siteUrl: "https://smart-event-client.onrender.com/"
+    }
   ];
   return (
     <section className="project" id="project">
