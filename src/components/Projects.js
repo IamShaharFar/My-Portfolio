@@ -6,23 +6,32 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Url shortner",
-      description: "make long url to short url with statistics and more",
-      imgUrl: projImg1,
-      gitUrl: "https://github.com/IamShaharFar/Shortify",
-      siteUrl: "https://github.com/IamShaharFar/Shortify"
+      title: "Accessibility React",
+      description: "A React component library to build accessible UIs, ensuring a better user experience for all users including those with disabilities.",
+      imgUrl: projImg7,
+      gitUrl: "https://github.com/IamShaharFar/Accessibility-Menu-For-React",
+      siteUrl: "https://accessibility-menu-react.onrender.com/"
     },
     {
-      title: "Airport simulator",
-      description: "web application that provides a server-client solution for managing airport operations",
-      imgUrl: projImg2,
-      gitUrl: "https://github.com/IamShaharFar/Flight-Simulator",
-      siteUrl: "https://github.com/IamShaharFar/Flight-Simulator"
+      title: "Smart Event",
+      description: "An AI tool that help create an event in your calender based on invatation message",
+      imgUrl: projImg5,
+      gitUrl: "https://github.com/IamShaharFar/SmartEvent",
+      siteUrl: "https://smart-event-client.onrender.com/"
     },
+    {
+      title: "Absorption products for adults",
+      description: "A web shop for absorption products for adults",
+      imgUrl: projImg6,
+      gitUrl: "https://github.com/IamShaharFar/Absorption-products/tree/main",
+      siteUrl: "https://rom-shivuk.onrender.com/"
+    },    
     {
       title: "Portfolio",
       description: "My portfolio",
@@ -38,12 +47,20 @@ export const Projects = () => {
       siteUrl: "https://github.com/IamShaharFar/MyStore"
     },
     {
-      title: "Smart Event",
-      description: "An AI tool that help create an event in your calender based on invatation message",
-      imgUrl: projImg5,
-      gitUrl: "https://github.com/IamShaharFar/SmartEvent",
-      siteUrl: "https://smart-event-client.onrender.com/"
-    }
+      title: "Url shortner",
+      description: "make long url to short url with statistics and more",
+      imgUrl: projImg1,
+      gitUrl: "https://github.com/IamShaharFar/Shortify",
+      siteUrl: "https://github.com/IamShaharFar/Shortify"
+    },
+    {
+      title: "Airport simulator",
+      description: "web application that provides a server-client solution for managing airport operations",
+      imgUrl: projImg2,
+      gitUrl: "https://github.com/IamShaharFar/Flight-Simulator",
+      siteUrl: "https://github.com/IamShaharFar/Flight-Simulator"
+    },
+
   ];
   return (
     <section className="project" id="project">
