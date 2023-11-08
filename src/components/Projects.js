@@ -8,6 +8,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.jpg";
 
 export const Projects = () => {
   const projects = [
@@ -19,12 +20,13 @@ export const Projects = () => {
       siteUrl: "https://accessibility-menu-react.onrender.com/"
     },
     {
-      title: "Smart Event",
-      description: "An AI tool that help create an event in your calender based on invatation message",
-      imgUrl: projImg5,
-      gitUrl: "https://github.com/IamShaharFar/SmartEvent",
-      siteUrl: "https://smart-event-client.onrender.com/"
+      title: "Store Management",
+      description: "A React application for streamlined inventory, order, and customer management in retail stores.",
+      imgUrl: projImg8,
+      gitUrl: "https://github.com/IamShaharFar/Store-Managment-Client",
+      siteUrl: "https://github.com/IamShaharFar/Store-Managment-Client"
     },
+    
     {
       title: "Absorption products for adults",
       description: "A web shop for absorption products for adults",
@@ -32,6 +34,13 @@ export const Projects = () => {
       gitUrl: "https://github.com/IamShaharFar/Absorption-products/tree/main",
       siteUrl: "https://rom-shivuk.onrender.com/"
     },    
+    {
+      title: "Smart Event",
+      description: "An AI tool that help create an event in your calender based on invatation message",
+      imgUrl: projImg5,
+      gitUrl: "https://github.com/IamShaharFar/SmartEvent",
+      siteUrl: "https://smart-event-client.onrender.com/"
+    },
     {
       title: "Portfolio",
       description: "My portfolio",
