@@ -1,4 +1,4 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav, Form } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import ColorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
@@ -9,9 +9,19 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.jpg";
+import assembler_img from "../assets/img/assembler-img.png";
+import smart_event_img from "../assets/img/smart_event_img.png";
+
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Assembler",
+      description: "University project: a two-pass assembler in C that translates custom assembly code into machine code.",
+      imgUrl: assembler_img,
+      gitUrl: "https://github.com/IamShaharFar/Assembler-C-Labratory",
+      siteUrl: "https://github.com/IamShaharFar/Assembler-C-Labratory"
+    },
     {
       title: "Accessibility React",
       description: "A React component library to build accessible UIs, ensuring a better user experience for all users including those with disabilities.",
